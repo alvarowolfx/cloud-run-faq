@@ -625,8 +625,8 @@ $ curl -v https://<url>
 
 ### Is gRPC supported on Cloud Run?
 
-[gRPC](https://grpc.io) is currently not supported on Cloud Run. However, [Cloud
-Run on GKE][crogke] supports running applications serving gRPC traffic.
+Streaming inbound [gRPC](https://grpc.io) is not currently supported, but [unary gRPC](https://grpc.io/docs/guides/concepts/) is supported on Cloud Run. However, [Cloud
+Run on GKE][crogke] supports running applications serving any type of gRPC traffic.
 
 [crogke]: https://cloud.google.com/run/docs/gke/setup
 
